@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <h1>Stock market data</h1>
+    <div class="form">
+        <div>
+            <div>
+                <label for="tickerField"><b>ENTER STOCK TICKER</b>(eg: AAPL): </label>
+                <input  id="tickerField" class ="inline">
+                <button class="valueSubmit" class = "inline">Enter</button>
+            </div>
+            <div>
+                <ul>
+                    <li >Stock name: $<a class="stockName"></a></li>
+                    <li >Date: <a class="date"></a></li>
+                    <li >High: <a class="high"> </a></li>
+                    <li >Low: <a class="low"> </a></li>   
+                </ul>
+            </div>
+        </div>
+        
+    </div id='lineChartBox'>
+       <canvas id="lineChart"></canvas>
+    <div>
+
+    </div>
+   
+   
+    
+</body>
+<script src ="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</html>

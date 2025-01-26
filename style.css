@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(15, 14, 21);
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+.form{
+    display: grid;
+    justify-items: center;
+}
+
+.inline{
+    display: inline-block;
+}
